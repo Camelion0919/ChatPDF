@@ -39,7 +39,6 @@ st.write('---')
 
 # openapi_key 입력 받기
 api_key = st.text_input('OpenAI key', type='password')
-st.button('set')
 
 if api_key:
     uploaded_file = st.file_uploader("Please upload the PDF file", type=['pdf'])
